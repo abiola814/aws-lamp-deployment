@@ -76,12 +76,12 @@ Before you begin, make sure you have the following:
 
 - Change permissions for the private key file (.pem), otherwise you will get bad permissions
 ```bash
-chmod 0400 your-key.pem
+chmod 0400 your-ec2-key.pem
 ```
 
 - Connect to the instance using the bash script below
 ```
-ssh -i your-key.pem ubuntu@ec2-public-ip
+ssh -i your-ec2-key.pem ubuntu@ec2-public-ip
 ```
 
 ### 3. Update System Packages
